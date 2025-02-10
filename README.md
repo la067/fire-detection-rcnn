@@ -33,22 +33,24 @@ Install dependencies using:
 ```bash
 pip install tensorflow==1.13.1 opencv-python numpy
 
+```
+
 ## 📊 **Dataset**
 The dataset consists of 1000 images:
 80% for training
 20% for validation
 Images labeled as fire and non-fire using LabelImg.
 
-🛠 How It Works
+## 🛠 **How It Works**
 Loads the dataset and pre-processes images.
 Trains the Faster R-CNN model on labeled fire images.
 Detects fire in real-time using a camera or video input.
 Outputs results with bounding boxes around detected flames.
 
-📸 Screenshots
+## 📸 **Screenshots**
 Fire Detected	No Fire Detected
 
-🤖 Future Improvements
+## 🤖 **Future Improvements**
 Deploy as a real-time IoT-based fire detection system.
 Optimize for edge devices like Raspberry Pi.
 
