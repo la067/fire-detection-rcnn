@@ -32,7 +32,8 @@ python src/main.py
 Install dependencies using:
 ```bash
 pip install tensorflow==1.13.1 opencv-python numpy
-📊 Dataset
+
+## 📊 **Dataset**
 The dataset consists of 1000 images:
 80% for training
 20% for validation
